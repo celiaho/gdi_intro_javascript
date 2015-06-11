@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Lifetime supply calculator
 var age = 30;
 var oldAge = 100;
@@ -18,3 +19,12 @@ if (total >= 40,000) {
 	console.log(total);
 	console.log("That's a healthy dose of potassium. " + total + " is the recommended lifetime dose.");
 }
+=======
+var age = 26;
+var oldAge = 96;
+var perDay = 2;
+
+var days = (oldAge - age) * 365;
+var total = perDay * days;
+alert("You will need " + total + " to last you until the ripe old age of " + oldAge);
+>>>>>>> 1430c837a2f3a4035af10f4dfaf9e1a28563d062
